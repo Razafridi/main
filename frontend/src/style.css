@@ -1,0 +1,489 @@
+/*Basic elements */
+*{
+padding:0;
+margin:0;
+box-sizing: border-box;
+}
+a{
+text-decoration:none;
+color:#00aaff;
+
+}
+p{
+font-weight:300;
+}
+/*grid system*/
+.row{
+display:flex;
+}
+.row-static{
+display:flex;
+text-align:justify;
+}
+.col-1{
+width:8.33%;
+}
+.col-2{
+width:16.66%;
+}
+.col-3{
+width:24.99%;
+}
+.col-4{
+width:33.32%;
+}
+.col-5{
+width:41.65%;
+}
+.col-6{
+width:49.98%;
+}
+.col-7{
+width:58.31%;
+}
+.col-8{
+width:66.64%;
+}
+.col-9{
+width:74.97%;
+}
+.col-10{
+width:83.30%;
+}
+.col-11{
+width:91.63%;
+}
+.col-12{
+width:99.96%;
+}
+
+.btn{
+padding:10px;
+margin:5px;
+border-radius:10px;
+border:0;
+box-shadow:0 0 10px rgba(0,0,0,0.3);
+}
+.btn-blue{
+background:#7380cc;
+color:#fff
+}
+.btn-dark{
+background:#22222;
+color:#fff
+}
+.btn-green{
+background:#41f1b6;
+color:#fff
+}
+
+.btn-red{
+background:#ff7782;
+color:#fff
+}
+
+.btn-orange{
+background:#ffbb55;
+color:#fff
+}
+.group-list{
+
+padding:10px;
+margin:10px;
+}
+.group-list-item {
+display:flex;
+list-style:none;
+justify-content: space-between ;
+align-items: center ;
+padding:10px;
+border-bottom:1px solid #ddd;
+}
+
+.group-list-item .badge{
+background:rgba(0,0,0,0.5);
+}
+.bordered{
+border:1px solid #ddd;
+}
+.rounded{
+border-radius:10px;
+}
+.badge{
+background:red;
+border-radius:20px;
+padding:0 7px;
+color:#fff;
+font-size:14px;
+}
+
+.input{
+padding:10px;
+margin:10px;
+border:1px solid #ddd;
+outline:none;
+border-radius:5px;
+}
+.input:hover{
+border:1px solid rgba(0,100,255, 0.3);
+}
+
+.table-green{
+border-collapse:collapse;
+margin:0 auto;
+min-width:200px;
+overflow:hidden;
+border-radius:5px 5px 0 0;
+box-shadow: 0 0 10px rgba(0,0,0,0.7);
+transition:0.5s;
+}
+.table-green:hover{
+box-shadow:0 0 30px rgba(0,0,0,0.9);
+}
+
+.table-green thead tr{
+background:#009876;
+text-align:left;
+color:#fff;
+font-weight:200;
+}
+
+.table-green th , .table td{
+padding:10px 10px;
+
+}
+.table-green tr{
+border-bottom:1px solid #d1d1d1;
+
+}
+.table-green tr:nth-of-type(even) {
+
+background:#ddd;
+color:#009876;
+}
+.table-green tr:last-child {
+border-bottom:2px solid #009876;
+}
+/*images*/
+
+.img-responsive{
+width:100%;
+}
+.img-full{
+width:100%;
+height:100%;
+}
+.object-cover{
+object-fit:cover;
+}
+.circle{
+border-radius:50%;
+}
+
+/*format*/
+.shadow{
+box-shadow:0 0 10px rgba(0,0,0,0.3);
+}
+.item-wrap{
+    flex-wrap: wrap;
+}
+.container{
+    padding: 20xp 10px;
+    margin: 20px 10px;
+}
+.divider{
+    border-bottom: 1px solid #ddd;
+}
+.d-flex{
+display: flex;
+}
+.justify-center {
+justify-content:center;
+}
+.justify-space-between{
+justify-content: space-between;
+}
+.align-center{
+align-items:center;
+}
+.flex-column{
+flex-direction: column ;
+}
+/*margin*/
+
+.m-1{
+margin:10px;
+}
+.m-2{
+margin:20px;
+}
+.m-3{
+margin:30px;
+}
+.m-4{
+margin:40px;
+}
+
+.my-1{
+margin:10px 0;
+}
+.my-2{
+margin:20px 0;
+}
+.my-3{
+margin:30px 0;
+}
+.my-4{
+margin:40px 0;
+}
+
+.mx-1{
+margin:0 10px;
+}
+.mx-2{
+margin:0 20px;
+}
+.mx-3{
+margin:0 30px;
+}
+.mx-4{
+margin:0 40px;
+}
+
+/*padding*/
+.p-1{
+padding:10px;
+}
+.p-2{
+padding:20px;
+}
+.p-3{
+padding:30px;
+}
+.p-4{
+padding:40px;
+}
+
+.py-1{
+padding:10px 0;
+}
+.py-2{
+padding:20px 0;
+}
+.py-3{
+padding:30px 0;
+}
+.py-4{
+padding:40px 0;
+}
+
+.px-1{
+padding:0 10px;
+}
+.px-2{
+padding:0 20px;
+}
+.px-3{
+padding:0 30px;
+}
+.px-4{
+padding:0 40px;
+}
+/*size*/
+.size-20{
+    width:20px;
+    height:20px;    
+}
+.size-30{
+    width:30px;
+    height:30px;    
+}
+.size-50{
+width:50px;
+height:50px;
+}
+.size-70{
+width:70px;
+height:70px;
+}
+.size-100{
+width:100px;
+height:100px;
+}
+.size-200{
+width:100px;
+height:100px;
+}
+
+
+/*tabs*/
+.tab{
+display: flex;
+padding:10px; 
+position:relative;
+margin:5px 0;
+}
+
+.tab li{
+list-style:none;
+}
+.tab li a{
+padding:10px 5px;
+border-top:1px solid #ddd;
+border-top-left-radius:5px;
+
+}
+.tab li .active{
+border-right:1px solid #ddd;
+border-bottom:1px solid #ddd;
+border-top:0;
+border-bottom-right-radius:5px;
+
+
+}
+.tab-red{
+background:#ff7782;
+color:#fff;
+}
+.tab-red a{
+color:#fff;
+}
+
+
+/*navbar*/
+.navbar{
+display: flex ;
+justify-content: space-between ;
+border-bottom:1px solid #ddd;
+}
+.navbar .header {
+display:flex;
+margin-right:10px;
+}
+
+.navbar .header .brand {
+margin-left:20px;
+display:flex;
+justify-content: center ;
+padding:5px 10px;
+color:#222;
+text-decoration:none;
+font-size:1.2rem;
+font-weight:600;
+align-items:center;
+}
+
+.navbar .menu{
+display:flex;
+flex-direction:row;
+
+}
+.navbar .menu li{
+list-style:none;
+
+}
+.navbar .menu li a{
+text-decoration:none;
+display:flex;
+justify-content: center ;
+padding:10px 5px;
+color:#222;
+text-decoration:none;
+font-size:1rem;
+font-weight:400;
+
+}
+.navbar .menu li a:hover{
+    background: rgba(0,0,0,0.5);
+}
+.navbar .sider{
+display:flex;
+margin-right: 20px;
+}
+
+.navbar .sider a{
+text-decoration:none;
+display:flex;
+justify-content: center ;
+padding:10px 5px;
+color:#222;
+text-decoration:none;
+font-size:1rem;
+font-weight:400;
+}
+.navbar-dark {
+background:#222;
+}
+.navbar-dark .header .brand{
+color:#fff;
+}
+.navbar-dark  .menu li a{
+color:#fff;
+}
+.navbar-dark .sider a{
+color:#fff
+}
+
+.navbar-red .header{
+background:#ff7782;
+
+}
+.navbar .header .brand{
+color:#fff;
+}
+
+/*responsive*/
+
+@media (max-width:700px){
+.row{
+display:flex;
+flex-direction: column ;
+justify-content: center;
+align-items: center;
+}
+
+.group-list{
+    padding: 0;
+    margin: 10px 0;
+}
+.row div{
+width:100%;
+}
+
+.navbar{
+flex-direction: column ;
+}
+.navbar .header{
+width:100%;
+padding:10px 0;
+margin:0;
+border-bottom:1px solid #ddd;
+}
+.navbar .menu {
+flex-direction:column;
+}
+.navbar .menu li{
+border-bottom:1px solid #ddd;
+background:rgba(0,0,0,0.05);
+}
+.navbar .mneu li a{
+display:block;
+
+}
+.navbar .sider{
+display:block;
+padding-top:10px;
+}
+.navbar-dark{
+background:#222;
+}
+.navbar-dark .header{
+border-bottom:1px solid rgba(255,255,255,0.11);
+}
+.navbar-dark  .menu li{
+border-bottom:1px solid #ddd;
+background:rgba(0,0,0,0.15);
+border-bottom:1px solid #222;
+}
+
+}
